@@ -1,0 +1,6 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns="sap.m"
+          controllerName="com.emc.fin.ap.controller.App">
+          <!-- this is a standard sap ui5 control - sap.m.App - its a container -->
+          <SplitApp id="idAppCon"></SplitApp>
+    <!-- <App id="idAppCon"></App> -->
+</mvc:View>

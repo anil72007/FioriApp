@@ -1,0 +1,1214 @@
+{
+    "multiSelectFilter": {
+        "dataChanges": [
+            {
+                "values": [
+                    {
+                        "text": "JD01"
+                    },
+                    {
+                        "text": "AD08"
+                    },
+                    {
+                        "text": "AD02"
+                    },
+                    {
+                        "text": "AD04"
+                    },
+                    {
+                        "text": "AD01"
+                    },
+                    {
+                        "text": "AD03"
+                    },
+                    {
+                        "text": "AD05"
+                    },
+                    {
+                        "text": "AD06"
+                    },
+                    {
+                        "text": "AD07"
+                    }
+                ],
+                "type": "Site"
+            },
+            {
+                "values": [
+                    {
+                        "text": "233486"
+                    },
+                    {
+                        "text": "303159"
+                    }
+                ],
+                "type": "Material"
+            },
+            {
+                "values": [
+                    {
+                        "text": "Fleisch waffeln D"
+                    },
+                    {
+                        "text": "Fleisch waffeln A"
+                    },
+                    {
+                        "text": "Fleisch waffeln C"
+                    }
+                ],
+                "type": "Material_Description"
+            },
+            {
+                "values": [
+                    {
+                        "text": "00040"
+                    },
+                    {
+                        "text": "00020"
+                    },
+                    {
+                        "text": "00030"
+                    },
+                    {
+                        "text": "00010"
+                    }
+                ],
+                "type": "Purchase_Contract_Item"
+            },
+            {
+                "values": [
+                    {
+                        "text": "Condition"
+                    },
+                    {
+                        "text": "Scale"
+                    },
+                    {
+                        "text": "Price Validity Range (PVR)"
+                    }
+                ],
+                "type": "Object"
+            },
+            {
+                "values": [
+                    {
+                        "text": "DELETE"
+                    },
+                    {
+                        "text": "CREATE"
+                    },
+                    {
+                        "text": "UPDATE"
+                    }
+                ],
+                "type": "Action"
+            },
+            {
+                "values": [
+                    {
+                        "text": "29.04.2021 - 31.12.9999"
+                    },
+                    {
+                        "text": "04.11.2021 - 31.12.9999"
+                    },
+                    {
+                        "text": "02.11.2021 - 31.12.9999"
+                    },
+                    {
+                        "text": "01.12.2021 - 31.12.9999"
+                    }
+                ],
+                "type": "Price_Validity_Range"
+            },
+            {
+                "values": [
+                    {
+                        "text": "-"
+                    },
+                    {
+                        "text": "PB00"
+                    },
+                    {
+                        "text": "ZCF2"
+                    },
+                    {
+                        "text": "ZBC1"
+                    }
+                ],
+                "type": "Condition"
+            },
+            {
+                "values": [
+                    {
+                        "text": "-"
+                    },
+                    {
+                        "text": "Scale 0.000"
+                    },
+                    {
+                        "text": "Scale 100.000"
+                    }
+                ],
+                "type": "Scale"
+            },
+            {
+                "values": [
+                    {
+                        "text": "true"
+                    },
+                    {
+                        "text": "100.000 EUR4"
+                    },
+                    {
+                        "text": "50.000 EUR4"
+                    },
+                    {
+                        "text": "10.000 EUR4"
+                    },
+                    {
+                        "text": "0.5000 EUR4"
+                    },
+                    {
+                        "text": "150.000 EUR4"
+                    }
+                ],
+                "type": "New_Value"
+            },
+            {
+                "values": [
+                    {
+                        "text": "0.2500 EUR4"
+                    },
+                    {
+                        "text": "false"
+                    },
+                    {
+                        "text": "100.000 EUR4"
+                    },
+                    {
+                        "text": "150.000 EUR4"
+                    },
+                    {
+                        "text": "150.000"
+                    },
+                    {
+                        "text": "10.000 EUR4"
+                    }
+                ],
+                "type": "Old_Value"
+            },
+            {
+                "values": [
+                    {
+                        "text": "CAR"
+                    }
+                ],
+                "type": "Condition_Unit"
+            },
+            {
+                "values": [
+                    {
+                        "text": "-"
+                    },
+                    {
+                        "text": "DDP"
+                    }
+                ],
+                "type": "Incoterm"
+            }
+        ]
+    },
+    "backup": {
+        "approvalStatus": {
+            "reason": "",
+            "status": ""
+        },
+        "taskType": "Task",
+        "requestingUser": "skubacz@aldi999.loc",
+        "contract": {
+            "supplierName": "PF Shanghai",
+            "supplierId": "1001573",
+            "purchaseOrganizationId": "9988",
+            "agreementId": 4600000009,
+            "purchaseOrganizationName": "Hofer Group Buying",
+            "purchasingGroupName": "purchasingGroupName",
+            "currency": "EUR4",
+            "validFrom": [
+                2021,
+                4,
+                8,
+                0,
+                0
+            ],
+            "productDetails": [
+                {
+                    "materialName": "Fleisch waffeln A",
+                    "item": "00020",
+                    "incotermsClassificationName": "DDP",
+                    "plant": "HD01",
+                    "incotermsClassification": "DDP",
+                    "orderPriceUnit": "CAR",
+                    "materialId": "233472",
+                    "plantName": "Oppeano DC"
+                },
+                {
+                    "materialName": "Fleisch waffeln A",
+                    "item": "00010",
+                    "incotermsClassificationName": "DDP",
+                    "plant": "HD01",
+                    "incotermsClassification": "DDP",
+                    "orderPriceUnit": "CAR",
+                    "materialId": "233472",
+                    "plantName": "Oppeano DC"
+                },
+                {
+                    "materialName": "Fleisch waffeln C",
+                    "item": "00030",
+                    "incotermsClassificationName": "DDP",
+                    "plant": "HD01",
+                    "incotermsClassification": "DDP",
+                    "orderPriceUnit": "CAR",
+                    "materialId": "233473",
+                    "plantName": "Oppeano DC"
+                },
+                {
+                    "materialName": "Fleisch waffeln D",
+                    "item": "00040",
+                    "incotermsClassificationName": "-",
+                    "plant": "JD01",
+                    "incotermsClassification": "-",
+                    "orderPriceUnit": "CAR",
+                    "materialId": "233486",
+                    "plantName": "Biatorbágy (HU)"
+                }
+            ],
+            "purchasingGroupId": "TEST",
+            "validTo": [
+                2021,
+                12,
+                31,
+                0,
+                0
+            ]
+        },
+        "dataChanges": [
+            {
+                "newValue": "true",
+                "objectRef": "JD01 233486 Item 00040 / PVR 29.04.2021 - 31.12.9999",
+                "NOTE": "DELETE PARTNER",
+                "objectTypeName": "Condition",
+                "action": "DELETEOBJECT",
+                "attributeName": "Deletion Indicator",
+                "attribute": "deletionIndicator",
+                "oldValue": "false",
+                "objectType": "ConditionsItemDetailEntity",
+                "actionName": "Deleting Old Object"
+            },
+            {
+                "newValue": "0",
+                "objectRef": "JD01 233486 Item 00040 / PVR 29.04.2021 - 31.12.9999",
+                "NOTE": "DELETE PARTNER",
+                "objectTypeName": "Condition",
+                "action": "UPDATEATTRIBUTE",
+                "attributeName": "Amount",
+                "attribute": "amount",
+                "oldValue": "0.2500",
+                "objectType": "ConditionsItemDetailEntity",
+                "actionName": "Updating Old Attribute"
+            },
+            {
+                "newValue": "true",
+                "objectRef": "AD08 303159 Item 00040 / PVR 29.04.2021 - 31.12.9999",
+                "NOTE": "SPECIAL CASE - HAS NO DELETE PARTNER",
+                "objectTypeName": "Condition",
+                "action": "DELETEOBJECT",
+                "attributeName": "Löschkennzeichen",
+                "attribute": "deletionIndicator",
+                "oldValue": "false",
+                "objectType": "ConditionsItemDetailEntity",
+                "actionName": "Löschung"
+            },
+            {
+                "newValue": "100.000",
+                "objectRef": "AD02 303159 Item 00020 / PVR 04.11.2021 - 31.12.9999 / Condition PB00",
+                "NOTE": "Create",
+                "objectTypeName": "Condition",
+                "action": "CREATEATTRIBUTE",
+                "attribute": "amount",
+                "oldValue": "",
+                "objectType": "ConditionsItemDetailEntity"
+            },
+            {
+                "newValue": "100.000",
+                "objectRef": "AD02 303159 Item 00020 / PVR 04.11.2021 - 31.12.9999 / Condition PB00 / Scale 0.000",
+                "NOTE": "Create",
+                "objectTypeName": "Scale",
+                "action": "CREATEATTRIBUTE",
+                "attribute": "amount",
+                "oldValue": "",
+                "objectType": "QuantityScaleEntity"
+            },
+            {
+                "newValue": "50.000",
+                "objectRef": "AD02 303159 Item 00020 / PVR 04.11.2021 - 31.12.9999 / Condition PB00 / Scale 100.000",
+                "NOTE": "Create",
+                "objectTypeName": "Scale",
+                "action": "CREATEATTRIBUTE",
+                "attribute": "amount",
+                "oldValue": "",
+                "objectType": "QuantityScaleEntity"
+            },
+            {
+                "newValue": "10.000",
+                "objectRef": "AD02 303159 Item 00020 / PVR 04.11.2021 - 31.12.9999 / Condition ZCF2",
+                "NOTE": "Create",
+                "objectTypeName": "Condition",
+                "action": "CREATEATTRIBUTE",
+                "attribute": "amount",
+                "oldValue": "",
+                "objectType": "ConditionsItemDetailEntity"
+            },
+            {
+                "newValue": "10.000",
+                "objectRef": "AD02 303159 Item 00020 / PVR 04.11.2021 - 31.12.9999 / Condition ZCF2 / Scale 0.000",
+                "NOTE": "Create",
+                "objectTypeName": "Scale",
+                "action": "CREATEATTRIBUTE",
+                "attribute": "amount",
+                "oldValue": "",
+                "objectType": "QuantityScaleEntity"
+            },
+            {
+                "newValue": "0.5000",
+                "objectRef": "AD02 303159 Item 00020 / PVR 04.11.2021 - 31.12.9999 / Condition ZCF2 / Scale 100.000",
+                "NOTE": "Create",
+                "objectTypeName": "Scale",
+                "action": "CREATEATTRIBUTE",
+                "attribute": "amount",
+                "oldValue": "",
+                "objectType": "QuantityScaleEntity"
+            },
+            {
+                "newValue": "100.000",
+                "objectRef": "AD04 303159 Item 00030 / PVR 04.11.2021 - 31.12.9999 / Condition PB00",
+                "NOTE": "Create",
+                "objectTypeName": "Condition",
+                "action": "CREATEATTRIBUTE",
+                "attribute": "amount",
+                "oldValue": "",
+                "objectType": "ConditionsItemDetailEntity"
+            },
+            {
+                "newValue": "50.000",
+                "objectRef": "AD04 303159 Item 00030 / PVR 04.11.2021 - 31.12.9999 / Condition PB00 / Scale 0.000",
+                "NOTE": "Create",
+                "objectTypeName": "Scale",
+                "action": "CREATEATTRIBUTE",
+                "attribute": "amount",
+                "oldValue": "",
+                "objectType": "QuantityScaleEntity"
+            },
+            {
+                "newValue": "10.000",
+                "objectRef": "AD04 303159 Item 00030 / PVR 04.11.2021 - 31.12.9999 / Condition PB00 / Scale 100.000",
+                "NOTE": "Create",
+                "objectTypeName": "Scale",
+                "action": "CREATEATTRIBUTE",
+                "attribute": "amount",
+                "oldValue": "",
+                "objectType": "QuantityScaleEntity"
+            },
+            {
+                "newValue": "100.000",
+                "objectRef": "AD04 303159 Item 00030 / PVR 04.11.2021 - 31.12.9999 / Condition ZCF2",
+                "NOTE": "Create",
+                "objectTypeName": "Condition",
+                "action": "CREATEATTRIBUTE",
+                "attribute": "amount",
+                "oldValue": "",
+                "objectType": "ConditionsItemDetailEntity"
+            },
+            {
+                "newValue": "100.000",
+                "objectRef": "AD04 303159 Item 00030 / PVR 04.11.2021 - 31.12.9999 / Condition ZCF2 / Scale 0.000",
+                "NOTE": "Create",
+                "objectTypeName": "Scale",
+                "action": "CREATEATTRIBUTE",
+                "attribute": "amount",
+                "oldValue": "",
+                "objectType": "QuantityScaleEntity"
+            },
+            {
+                "newValue": "50.000",
+                "objectRef": "AD04 303159 Item 00030 / PVR 04.11.2021 - 31.12.9999 / Condition ZCF2 / Scale 100.000",
+                "NOTE": "Create",
+                "objectTypeName": "Scale",
+                "action": "CREATEATTRIBUTE",
+                "attribute": "amount",
+                "oldValue": "",
+                "objectType": "QuantityScaleEntity"
+            },
+            {
+                "newValue": "150.000",
+                "objectRef": "AD01 303159 Item 00010 / PVR 02.11.2021 - 31.12.9999 / Condition PB00",
+                "NOTE": "Update",
+                "objectTypeName": "Condition",
+                "action": "UPDATEATTRIBUTE",
+                "attribute": "amount",
+                "oldValue": "100.000",
+                "objectType": "ConditionsItemDetailEntity"
+            },
+            {
+                "newValue": "true",
+                "objectRef": "AD01 303159 Item 00010 / PVR 01.12.2021 - 31.12.9999 / Condition PB00",
+                "NOTE": "Delete",
+                "objectTypeName": "Price Validity Range (PVR)",
+                "action": "DELETEOBJECT",
+                "attribute": "deletionIndicator",
+                "oldValue": "",
+                "objectType": "ConditionsItemDetailEntity"
+            },
+            {
+                "newValue": "0",
+                "objectRef": "AD02 303159 Item 00010 / PVR 01.12.2021 - 31.12.9999 / Condition PB00",
+                "NOTE": "Delete Partner",
+                "objectTypeName": "Condition",
+                "action": "UPDATEATTRIBUTE",
+                "attribute": "amount",
+                "oldValue": "150.000",
+                "objectType": "ConditionsItemDetailEntity"
+            },
+            {
+                "newValue": "true",
+                "objectRef": "AD02 303159 Item 00010 / PVR 01.12.2021 - 31.12.9999 / Condition PB00",
+                "NOTE": "Delete Partner",
+                "objectTypeName": "Condition",
+                "action": "DELETEOBJECT",
+                "attribute": "deletionIndicator",
+                "oldValue": "",
+                "objectType": "ConditionsItemDetailEntity"
+            },
+            {
+                "newValue": "0",
+                "objectRef": "AD03 303159 Item 00010 / PVR 01.12.2021 - 31.12.9999 / Condition PB00 / Scale 0.000",
+                "NOTE": "Delete",
+                "objectTypeName": "Scale",
+                "action": "DELETEOBJECT",
+                "attribute": "deletionIndicator",
+                "oldValue": "150.000",
+                "objectType": "QuantityScaleEntity"
+            },
+            {
+                "newValue": "true",
+                "objectRef": "AD04 303159 Item 00010 / PVR 01.12.2021 - 31.12.9999 / Condition PB00 / Scale 100.000",
+                "NOTE": "Delete",
+                "objectTypeName": "Scale",
+                "action": "DELETEOBJECT",
+                "attribute": "deletionIndicator",
+                "oldValue": "",
+                "objectType": "QuantityScaleEntity"
+            },
+            {
+                "newValue": "0",
+                "objectRef": "AD05 303159 Item 00010 / PVR 01.12.2021 - 31.12.9999 / Condition ZCF2",
+                "NOTE": "Delete Partner",
+                "objectTypeName": "Condition",
+                "action": "UPDATEATTRIBUTE",
+                "attribute": "amount",
+                "oldValue": "10.000",
+                "objectType": "ConditionsItemDetailEntity"
+            },
+            {
+                "newValue": "true",
+                "objectRef": "AD05 303159 Item 00010 / PVR 01.12.2021 - 31.12.9999 / Condition ZCF2",
+                "NOTE": "Delete Partner",
+                "objectTypeName": "Condition",
+                "action": "DELETEOBJECT",
+                "attribute": "deletionIndicator",
+                "oldValue": "false",
+                "objectType": "ConditionsItemDetailEntity"
+            },
+            {
+                "newValue": "true",
+                "objectRef": "AD06 303159 Item 00010 / PVR 01.12.2021 - 31.12.9999 / Condition ZCF2 / Scale 0.000",
+                "NOTE": "Delete",
+                "objectTypeName": "Scale",
+                "action": "DELETEOBJECT",
+                "attribute": "deletionIndicator",
+                "oldValue": "",
+                "objectType": "QuantityScaleEntity"
+            },
+            {
+                "newValue": "true",
+                "objectRef": "AD07 303159 Item 00010 / PVR 01.12.2021 - 31.12.9999 / Condition ZCF2 / Scale 100.000",
+                "NOTE": "Delete",
+                "objectTypeName": "Scale",
+                "action": "DELETEOBJECT",
+                "attribute": "deletionIndicator",
+                "oldValue": "",
+                "objectType": "QuantityScaleEntity"
+            },
+            {
+                "newValue": "true",
+                "objectRef": "JD01 233486 Item 00040 / PVR 29.04.2021 - 31.12.9999 / Condition ZBC1",
+                "NOTE": "Delete Partner",
+                "objectTypeName": "Condition",
+                "action": "DELETEOBJECT",
+                "attributeName": "Deletion Indicator",
+                "attribute": "deletionIndicator",
+                "oldValue": "false",
+                "objectType": "ConditionsItemDetailEntity",
+                "actionName": "Deleting Old Object"
+            },
+            {
+                "newValue": "0",
+                "objectRef": "JD01 233486 Item 00040 / PVR 29.04.2021 - 31.12.9999 / Condition ZBC1",
+                "NOTE": "Delete Partner",
+                "objectTypeName": "Condition",
+                "action": "UPDATEATTRIBUTE",
+                "attributeName": "Amount",
+                "attribute": "amount",
+                "oldValue": "0.2500",
+                "objectType": "ConditionsItemDetailEntity",
+                "actionName": "Updating Old Attribute"
+            }
+        ],
+        "creationDate": [
+            2021,
+            8,
+            26,
+            8,
+            36,
+            18,
+            348000000
+        ],
+        "taskId": 3324
+    },
+    "requestingUser": "skubacz@aldi999.loc",
+    "BusinessRuleDefinitions": [
+        {
+            "CreatedBy": "stephen.go@capgemini.com",
+            "ChangedBy": "bernd.meyer@capgemini.com",
+            "ProjectName": "CoCoDefaultValues",
+            "RuleServiceId": "009172464816476cb7de429af467c802",
+            "CreatedOn": "2022-05-19T11:35:04.986Z",
+            "RuleServiceName": "UnderOverDeliveriesDefaultValueRuleService",
+            "ChangedOn": "2022-10-07T08:07:45.431Z"
+        },
+        {
+            "CreatedBy": "user/sap.default/adam.kampa@capgemini.com",
+            "ChangedBy": "t-k.lakshmi@capgemini.com",
+            "ProjectName": "DateCalculationProject",
+            "RuleServiceId": "aede862ab1024c05910b4a07cf67c9b2",
+            "CreatedOn": "2021-05-18T20:56:03.591Z",
+            "RuleServiceName": "DateCalculationRuleService",
+            "ChangedOn": "2022-10-07T11:14:37.84Z"
+        },
+        {
+            "CreatedBy": "stephen.go@capgemini.com",
+            "ChangedBy": "bernd.meyer@capgemini.com",
+            "ProjectName": "CoCoDefaultValues",
+            "RuleServiceId": "7d09092e2aaf49ef9f86e16942b9fb65",
+            "CreatedOn": "2022-04-27T07:24:54.411Z",
+            "RuleServiceName": "MaterialSalesViewAccessRuleService",
+            "ChangedOn": "2022-08-08T13:11:06.092Z"
+        },
+        {
+            "CreatedBy": "engelkamp@aldi999.loc",
+            "ChangedBy": "deepak@aldi999.loc",
+            "ProjectName": "PurchasePriceApproval",
+            "RuleServiceId": "fd54e794693b422c974b44c656df14c7",
+            "CreatedOn": "2021-09-06T18:08:28.028Z",
+            "RuleServiceName": "GetApprover",
+            "ChangedOn": "2022-10-13T07:37:41.72Z"
+        },
+        {
+            "CreatedBy": "stephen.go@capgemini.com",
+            "ChangedBy": "bernd.meyer@capgemini.com",
+            "ProjectName": "CoCoDefaultValues",
+            "RuleServiceId": "f41b68a0fc8f4f9ea8320f4e91599eb3",
+            "CreatedOn": "2022-04-28T13:41:56.296Z",
+            "RuleServiceName": "ConfirmationControlDefaultValueRuleService",
+            "ChangedOn": "2022-08-12T10:29:19.359Z"
+        }
+    ],
+    "isApproverMissing": false,
+    "Requests": {
+        "Reject": "",
+        "EmpowerID": {
+            "searchProperty": "login",
+            "searchValue": "skubacz aldi999 loc"
+        },
+        "EmpowerIDResponse": {
+            "OutParameters": [
+                {
+                    "Value": 0,
+                    "Name": "totalCount"
+                }
+            ],
+            "Data": [],
+            "Tags": []
+        },
+        "Approve": "",
+        "Url": ""
+    },
+    "Requester": {
+        "UPN": "skubacz@aldi999.loc",
+        "Email": "tricellinc@t-online.de",
+        "FirstName": "Max Mustermann",
+        "name": "Max Mustermann",
+        "LastName": "Mustermann"
+    },
+    "taskType": "Task",
+    "uniqueProductDetails_String": "(233472) Fleisch waffeln A \n(233473) Fleisch waffeln C \n(233486) Fleisch waffeln D",
+    "assets": {
+        "owner": {
+            "SubaccountId": "9ba7dfed-421e-44d5-a544-bb1906b659dc",
+            "InstanceId": null
+        },
+        "destinationConfiguration": {
+            "Name": "wm_ppa_assets",
+            "Type": "HTTP",
+            "URL": "https://example.com",
+            "Authentication": "NoAuthentication",
+            "ProxyType": "Internet",
+            "Description": "This destination is used to retrieve specific information for ppa",
+            "myinbox_link": "https://emeacentral-iit-central-dev2.cockpit.workflowmanagement.cfapps.eu20.hana.ondemand.com/cp.portal/site#WorkflowTask-DisplayMyInbox",
+            "stage": "DEV2",
+            "recipients_IT": "tricellinc@t-online.de"
+        }
+    },
+    "businessRulesRequestBody": {
+        "RuleServiceId": "fd54e794693b422c974b44c656df14c7",
+        "Vocabulary": [
+            {
+                "PurchasingGroup": {
+                    "purchasingGroup": "TEST"
+                }
+            }
+        ]
+    },
+    "userForm_dataChanges": "DELETED",
+    "approver": {
+        "Result": [
+            {
+                "User": {
+                    "UserName": "Deepak Deepak",
+                    "UserID": "deepak@aldi999.loc",
+                    "UserMail": "deepak.deepak@aldi-sued.com",
+                    "FirstName": "Deepak"
+                }
+            }
+        ]
+    },
+    "approvalStatus": {
+        "status": "",
+        "reason": ""
+    },
+    "businessRuleDefinition": [
+        {
+            "CreatedBy": "engelkamp@aldi999.loc",
+            "ChangedBy": "deepak@aldi999.loc",
+            "ProjectName": "PurchasePriceApproval",
+            "RuleServiceId": "fd54e794693b422c974b44c656df14c7",
+            "CreatedOn": "2021-09-06T18:08:28.028Z",
+            "RuleServiceName": "GetApprover",
+            "ChangedOn": "2022-10-13T07:37:41.72Z"
+        }
+    ],
+    "displayText": "(233472) Fleisch waffeln A,(233472) Fleisch waffeln A,(233473) Fleisch waffeln C...",
+    "test": "2022-01-18 8:26",
+    "dataObjectLengths": {
+        "dataChanges": 23,
+        "productDetails": 4
+    },
+    "contract": {
+        "supplierName": "PF Shanghai",
+        "supplierId": "1001573",
+        "purchaseOrganization": "(9988) Hofer Group Buying",
+        "purchasingGroupName": "purchasingGroupName",
+        "purchasingGroup": "(TEST) purchasingGroupName",
+        "validFrom": [
+            2021,
+            4,
+            8,
+            0,
+            0
+        ],
+        "productDetails": [
+            {
+                "materialName": "Fleisch waffeln A",
+                "item": "00020",
+                "materialStr": "(233472) Fleisch waffeln A",
+                "incotermsClassificationName": "DDP",
+                "plant": "HD01",
+                "plantStr": "(HD01) Oppeano DC",
+                "incotermsClassification": "DDP",
+                "orderPriceUnit": "CAR",
+                "materialId": "233472",
+                "incotermsClassificationStr": "(DDP) DDP",
+                "plantName": "Oppeano DC"
+            },
+            {
+                "materialName": "Fleisch waffeln A",
+                "item": "00010",
+                "materialStr": "(233472) Fleisch waffeln A",
+                "incotermsClassificationName": "DDP",
+                "plant": "HD01",
+                "plantStr": "(HD01) Oppeano DC",
+                "incotermsClassification": "DDP",
+                "orderPriceUnit": "CAR",
+                "materialId": "233472",
+                "incotermsClassificationStr": "(DDP) DDP",
+                "plantName": "Oppeano DC"
+            },
+            {
+                "materialName": "Fleisch waffeln C",
+                "item": "00030",
+                "materialStr": "(233473) Fleisch waffeln C",
+                "incotermsClassificationName": "DDP",
+                "plant": "HD01",
+                "plantStr": "(HD01) Oppeano DC",
+                "incotermsClassification": "DDP",
+                "orderPriceUnit": "CAR",
+                "materialId": "233473",
+                "incotermsClassificationStr": "(DDP) DDP",
+                "plantName": "Oppeano DC"
+            },
+            {
+                "materialName": "Fleisch waffeln D",
+                "item": "00040",
+                "materialStr": "(233486) Fleisch waffeln D",
+                "incotermsClassificationName": "-",
+                "plant": "JD01",
+                "plantStr": "(JD01) Biatorbágy (HU)",
+                "incotermsClassification": "-",
+                "orderPriceUnit": "CAR",
+                "materialId": "233486",
+                "incotermsClassificationStr": "(-) -",
+                "plantName": "Biatorbágy (HU)"
+            }
+        ],
+        "purchasingGroupId": "TEST",
+        "purchaseOrganizationId": "9988",
+        "validFromStr": "8.4.2021",
+        "supplierStr": "(1001573) PF Shanghai",
+        "validToStr": "31.12.2021",
+        "agreementId": 4600000009,
+        "purchaseOrganizationName": "Hofer Group Buying",
+        "currency": "EUR4",
+        "validTo": [
+            2021,
+            12,
+            31,
+            0,
+            0
+        ]
+    },
+    "loopCounter": {
+        "countExecutionOfScriptTask": 1,
+        "loopCounterofDataChanges": 49
+    },
+    "WorkflowID": "35e0d947-550c-11ed-8cb3-eeee0a93e78f",
+    "creationDate": [
+        2021,
+        8,
+        26,
+        8,
+        36,
+        18,
+        348000000
+    ],
+    "uniqueProductDetails_Object": [
+        {
+            "materialName": "Fleisch waffeln A",
+            "item": "00020",
+            "materialStr": "(233472) Fleisch waffeln A",
+            "incotermsClassificationName": "DDP",
+            "plant": "HD01",
+            "plantStr": "(HD01) Oppeano DC",
+            "incotermsClassification": "DDP",
+            "orderPriceUnit": "CAR",
+            "materialId": "233472",
+            "incotermsClassificationStr": "(DDP) DDP",
+            "plantName": "Oppeano DC"
+        },
+        {
+            "materialName": "Fleisch waffeln C",
+            "item": "00030",
+            "materialStr": "(233473) Fleisch waffeln C",
+            "incotermsClassificationName": "DDP",
+            "plant": "HD01",
+            "plantStr": "(HD01) Oppeano DC",
+            "incotermsClassification": "DDP",
+            "orderPriceUnit": "CAR",
+            "materialId": "233473",
+            "incotermsClassificationStr": "(DDP) DDP",
+            "plantName": "Oppeano DC"
+        },
+        {
+            "materialName": "Fleisch waffeln D",
+            "item": "00040",
+            "materialStr": "(233486) Fleisch waffeln D",
+            "incotermsClassificationName": "-",
+            "plant": "JD01",
+            "plantStr": "(JD01) Biatorbágy (HU)",
+            "incotermsClassification": "-",
+            "orderPriceUnit": "CAR",
+            "materialId": "233486",
+            "incotermsClassificationStr": "(-) -",
+            "plantName": "Biatorbágy (HU)"
+        }
+    ],
+    "myInboxLink": "https://emeacentral-iit-central-dev2.cockpit.workflowmanagement.cfapps.eu20.hana.ondemand.com/cp.portal/site#WorkflowTask-DisplayMyInbox",
+    "stage": "DEV2",
+    "response": "DELETED",
+    "dataChanges": [
+        {
+            "Site": "JD01",
+            "Condition": "-",
+            "Action": "DELETE",
+            "Price_Validity_Range": "29.04.2021 - 31.12.9999",
+            "Condition_Unit": "CAR",
+            "Material": "233486",
+            "Scale": "-",
+            "Old_Value": "0.2500 EUR4",
+            "Purchase_Contract_Item": "00040",
+            "Material_Description": "Fleisch waffeln D",
+            "New_Value": "",
+            "Incoterm": "-",
+            "Object": "Condition"
+        },
+        {
+            "Site": "AD08",
+            "Condition": "-",
+            "Action": "DELETE",
+            "Price_Validity_Range": "29.04.2021 - 31.12.9999",
+            "Condition_Unit": "CAR",
+            "Material": "303159",
+            "Scale": "-",
+            "Old_Value": "false",
+            "Purchase_Contract_Item": "00040",
+            "Material_Description": "Fleisch waffeln D",
+            "New_Value": "true",
+            "Incoterm": "-",
+            "Object": "Condition"
+        },
+        {
+            "Site": "AD02",
+            "Condition": "PB00",
+            "Action": "CREATE",
+            "Price_Validity_Range": "04.11.2021 - 31.12.9999",
+            "Condition_Unit": "CAR",
+            "Material": "303159",
+            "Scale": "-",
+            "Old_Value": "",
+            "Purchase_Contract_Item": "00020",
+            "Material_Description": "Fleisch waffeln A",
+            "New_Value": "100.000 EUR4",
+            "Incoterm": "DDP",
+            "Object": "Condition"
+        },
+        {
+            "Site": "AD02",
+            "Condition": "PB00",
+            "Action": "CREATE",
+            "Price_Validity_Range": "04.11.2021 - 31.12.9999",
+            "Condition_Unit": "CAR",
+            "Material": "303159",
+            "Scale": "Scale 0.000",
+            "Old_Value": "",
+            "Purchase_Contract_Item": "00020",
+            "Material_Description": "Fleisch waffeln A",
+            "New_Value": "100.000 EUR4",
+            "Incoterm": "DDP",
+            "Object": "Scale"
+        },
+        {
+            "Site": "AD02",
+            "Condition": "PB00",
+            "Action": "CREATE",
+            "Price_Validity_Range": "04.11.2021 - 31.12.9999",
+            "Condition_Unit": "CAR",
+            "Material": "303159",
+            "Scale": "Scale 100.000",
+            "Old_Value": "",
+            "Purchase_Contract_Item": "00020",
+            "Material_Description": "Fleisch waffeln A",
+            "New_Value": "50.000 EUR4",
+            "Incoterm": "DDP",
+            "Object": "Scale"
+        },
+        {
+            "Site": "AD02",
+            "Condition": "ZCF2",
+            "Action": "CREATE",
+            "Price_Validity_Range": "04.11.2021 - 31.12.9999",
+            "Condition_Unit": "CAR",
+            "Material": "303159",
+            "Scale": "-",
+            "Old_Value": "",
+            "Purchase_Contract_Item": "00020",
+            "Material_Description": "Fleisch waffeln A",
+            "New_Value": "10.000 EUR4",
+            "Incoterm": "DDP",
+            "Object": "Condition"
+        },
+        {
+            "Site": "AD02",
+            "Condition": "ZCF2",
+            "Action": "CREATE",
+            "Price_Validity_Range": "04.11.2021 - 31.12.9999",
+            "Condition_Unit": "CAR",
+            "Material": "303159",
+            "Scale": "Scale 0.000",
+            "Old_Value": "",
+            "Purchase_Contract_Item": "00020",
+            "Material_Description": "Fleisch waffeln A",
+            "New_Value": "10.000 EUR4",
+            "Incoterm": "DDP",
+            "Object": "Scale"
+        },
+        {
+            "Site": "AD02",
+            "Condition": "ZCF2",
+            "Action": "CREATE",
+            "Price_Validity_Range": "04.11.2021 - 31.12.9999",
+            "Condition_Unit": "CAR",
+            "Material": "303159",
+            "Scale": "Scale 100.000",
+            "Old_Value": "",
+            "Purchase_Contract_Item": "00020",
+            "Material_Description": "Fleisch waffeln A",
+            "New_Value": "0.5000 EUR4",
+            "Incoterm": "DDP",
+            "Object": "Scale"
+        },
+        {
+            "Site": "AD04",
+            "Condition": "PB00",
+            "Action": "CREATE",
+            "Price_Validity_Range": "04.11.2021 - 31.12.9999",
+            "Condition_Unit": "CAR",
+            "Material": "303159",
+            "Scale": "-",
+            "Old_Value": "",
+            "Purchase_Contract_Item": "00030",
+            "Material_Description": "Fleisch waffeln C",
+            "New_Value": "100.000 EUR4",
+            "Incoterm": "DDP",
+            "Object": "Condition"
+        },
+        {
+            "Site": "AD04",
+            "Condition": "PB00",
+            "Action": "CREATE",
+            "Price_Validity_Range": "04.11.2021 - 31.12.9999",
+            "Condition_Unit": "CAR",
+            "Material": "303159",
+            "Scale": "Scale 0.000",
+            "Old_Value": "",
+            "Purchase_Contract_Item": "00030",
+            "Material_Description": "Fleisch waffeln C",
+            "New_Value": "50.000 EUR4",
+            "Incoterm": "DDP",
+            "Object": "Scale"
+        },
+        {
+            "Site": "AD04",
+            "Condition": "PB00",
+            "Action": "CREATE",
+            "Price_Validity_Range": "04.11.2021 - 31.12.9999",
+            "Condition_Unit": "CAR",
+            "Material": "303159",
+            "Scale": "Scale 100.000",
+            "Old_Value": "",
+            "Purchase_Contract_Item": "00030",
+            "Material_Description": "Fleisch waffeln C",
+            "New_Value": "10.000 EUR4",
+            "Incoterm": "DDP",
+            "Object": "Scale"
+        },
+        {
+            "Site": "AD04",
+            "Condition": "ZCF2",
+            "Action": "CREATE",
+            "Price_Validity_Range": "04.11.2021 - 31.12.9999",
+            "Condition_Unit": "CAR",
+            "Material": "303159",
+            "Scale": "-",
+            "Old_Value": "",
+            "Purchase_Contract_Item": "00030",
+            "Material_Description": "Fleisch waffeln C",
+            "New_Value": "100.000 EUR4",
+            "Incoterm": "DDP",
+            "Object": "Condition"
+        },
+        {
+            "Site": "AD04",
+            "Condition": "ZCF2",
+            "Action": "CREATE",
+            "Price_Validity_Range": "04.11.2021 - 31.12.9999",
+            "Condition_Unit": "CAR",
+            "Material": "303159",
+            "Scale": "Scale 0.000",
+            "Old_Value": "",
+            "Purchase_Contract_Item": "00030",
+            "Material_Description": "Fleisch waffeln C",
+            "New_Value": "100.000 EUR4",
+            "Incoterm": "DDP",
+            "Object": "Scale"
+        },
+        {
+            "Site": "AD04",
+            "Condition": "ZCF2",
+            "Action": "CREATE",
+            "Price_Validity_Range": "04.11.2021 - 31.12.9999",
+            "Condition_Unit": "CAR",
+            "Material": "303159",
+            "Scale": "Scale 100.000",
+            "Old_Value": "",
+            "Purchase_Contract_Item": "00030",
+            "Material_Description": "Fleisch waffeln C",
+            "New_Value": "50.000 EUR4",
+            "Incoterm": "DDP",
+            "Object": "Scale"
+        },
+        {
+            "Site": "AD01",
+            "Condition": "PB00",
+            "Action": "UPDATE",
+            "Price_Validity_Range": "02.11.2021 - 31.12.9999",
+            "Condition_Unit": "CAR",
+            "Material": "303159",
+            "Scale": "-",
+            "Old_Value": "100.000 EUR4",
+            "Purchase_Contract_Item": "00010",
+            "Material_Description": "Fleisch waffeln A",
+            "New_Value": "150.000 EUR4",
+            "Incoterm": "DDP",
+            "Object": "Condition"
+        },
+        {
+            "Site": "AD01",
+            "Condition": "PB00",
+            "Action": "DELETE",
+            "Price_Validity_Range": "01.12.2021 - 31.12.9999",
+            "Condition_Unit": "CAR",
+            "Material": "303159",
+            "Scale": "-",
+            "Old_Value": "",
+            "Purchase_Contract_Item": "00010",
+            "Material_Description": "Fleisch waffeln A",
+            "New_Value": "true",
+            "Incoterm": "DDP",
+            "Object": "Price Validity Range (PVR)"
+        },
+        {
+            "Site": "AD02",
+            "Condition": "PB00",
+            "Action": "DELETE",
+            "Price_Validity_Range": "01.12.2021 - 31.12.9999",
+            "Condition_Unit": "CAR",
+            "Material": "303159",
+            "Scale": "-",
+            "Old_Value": "150.000 EUR4",
+            "Purchase_Contract_Item": "00010",
+            "Material_Description": "Fleisch waffeln A",
+            "New_Value": "",
+            "Incoterm": "DDP",
+            "Object": "Condition"
+        },
+        {
+            "Site": "AD03",
+            "Condition": "PB00",
+            "Action": "DELETE",
+            "Price_Validity_Range": "01.12.2021 - 31.12.9999",
+            "Condition_Unit": "CAR",
+            "Material": "303159",
+            "Scale": "Scale 0.000",
+            "Old_Value": "150.000",
+            "Purchase_Contract_Item": "00010",
+            "Material_Description": "Fleisch waffeln A",
+            "New_Value": "",
+            "Incoterm": "DDP",
+            "Object": "Scale"
+        },
+        {
+            "Site": "AD04",
+            "Condition": "PB00",
+            "Action": "DELETE",
+            "Price_Validity_Range": "01.12.2021 - 31.12.9999",
+            "Condition_Unit": "CAR",
+            "Material": "303159",
+            "Scale": "Scale 100.000",
+            "Old_Value": "",
+            "Purchase_Contract_Item": "00010",
+            "Material_Description": "Fleisch waffeln A",
+            "New_Value": "true",
+            "Incoterm": "DDP",
+            "Object": "Scale"
+        },
+        {
+            "Site": "AD05",
+            "Condition": "ZCF2",
+            "Action": "DELETE",
+            "Price_Validity_Range": "01.12.2021 - 31.12.9999",
+            "Condition_Unit": "CAR",
+            "Material": "303159",
+            "Scale": "-",
+            "Old_Value": "10.000 EUR4",
+            "Purchase_Contract_Item": "00010",
+            "Material_Description": "Fleisch waffeln A",
+            "New_Value": "",
+            "Incoterm": "DDP",
+            "Object": "Condition"
+        },
+        {
+            "Site": "AD06",
+            "Condition": "ZCF2",
+            "Action": "DELETE",
+            "Price_Validity_Range": "01.12.2021 - 31.12.9999",
+            "Condition_Unit": "CAR",
+            "Material": "303159",
+            "Scale": "Scale 0.000",
+            "Old_Value": "",
+            "Purchase_Contract_Item": "00010",
+            "Material_Description": "Fleisch waffeln A",
+            "New_Value": "true",
+            "Incoterm": "DDP",
+            "Object": "Scale"
+        },
+        {
+            "Site": "AD07",
+            "Condition": "ZCF2",
+            "Action": "DELETE",
+            "Price_Validity_Range": "01.12.2021 - 31.12.9999",
+            "Condition_Unit": "CAR",
+            "Material": "303159",
+            "Scale": "Scale 100.000",
+            "Old_Value": "",
+            "Purchase_Contract_Item": "00010",
+            "Material_Description": "Fleisch waffeln A",
+            "New_Value": "true",
+            "Incoterm": "DDP",
+            "Object": "Scale"
+        },
+        {
+            "Site": "JD01",
+            "Condition": "ZBC1",
+            "Action": "DELETE",
+            "Price_Validity_Range": "29.04.2021 - 31.12.9999",
+            "Condition_Unit": "CAR",
+            "Material": "233486",
+            "Scale": "-",
+            "Old_Value": "0.2500 EUR4",
+            "Purchase_Contract_Item": "00040",
+            "Material_Description": "Fleisch waffeln D",
+            "New_Value": "",
+            "Incoterm": "-",
+            "Object": "Condition"
+        }
+    ],
+    "taskId": 3324
+}

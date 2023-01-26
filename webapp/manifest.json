@@ -1,0 +1,127 @@
+{
+    "_version": "1.43.0",
+    "sap.app":{
+        "id": "com.emc.fin.ap",
+        "type": "application",
+        "ach": "FIN-AC-AP",
+        "applicationVersion": {
+            "version": "1.0.0"
+        },
+        "dataSources": {
+            "anubhavService": {
+                "uri": "/sap/opu/odata/sap/ZDATA_SRV/",
+                "type": "OData",
+                "settings": {
+                    "odataVersion": "2.0"
+                }
+            }
+        },
+        "title": "{{appTitle}}",
+        "description": "{{appDesciption}}",
+        "i18n": "i18n/i18n.properties"
+    },
+    "sap.ui":{
+        "deviceTypes": {
+            "desktop": true,
+            "phone": true,
+            "tablet":true 
+        },
+        "supportedThemes": ["sap_fiori_3","sap_fiori_3_dark"],
+        "fullWidth": true,
+        "technology": "UI5"
+    },
+    "sap.ui5": {
+        "dependencies": {
+            "minUI5Version": "1.100",
+            "libs": {
+                "sap.ui.core": { "minVersion": "1.99" },
+                "sap.m": {},
+                "sap.ui.layout": {}
+            }
+        },
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        },
+        "rootView":{
+            "id": "idRootView",
+            "viewName": "com.emc.fin.ap.view.App",
+            "type": "XML"
+        },
+        "routing": {
+            "config":{
+                "routerClass": "sap.m.routing.Router",
+                "viewPath": "com.emc.fin.ap.view",
+                "viewType": "XML",
+                "controlId": "idAppCon"
+            },
+            "routes":[
+                {
+                    "pattern": "",
+                    "name": "spiderman",
+                    "target":["joe","biden"]
+                },{
+                    "pattern": "fruit/{fruitId}",
+                    "name": "superman",
+                    "target":["joe", "modi"]
+                },{
+                    "pattern": "supplier/{suppId}",
+                    "name": "ironman",
+                    "target":["joe", "putin"]
+                },{
+                    "pattern": "AddNewProduct",
+                    "name": "add",
+                    "target":["joe", "macron"]
+                }
+            ],
+            "targets": {
+                "joe": {
+                    "viewId": "idView1",
+                    "viewName": "View1",
+                    "controlAggregation": "masterPages"
+                },
+                "biden": {
+                    "viewId": "idEmpty",
+                    "viewName": "Empty",
+                    "controlAggregation": "detailPages"
+                },
+                "modi": {
+                    "viewId": "idView2",
+                    "viewName": "View2",
+                    "controlAggregation": "detailPages"
+                },
+                "putin": {
+                    "viewId": "idView3",
+                    "viewName": "View3",
+                    "controlAggregation": "detailPages"
+                },
+                "macron": {
+                    "viewId": "idAdd",
+                    "viewName": "Add",
+                    "controlAggregation": "detailPages"
+                }
+            }
+        },
+        "models": {
+            "": {
+                "type": "sap.ui.model.odata.v2.ODataModel",
+                "dataSource": "anubhavService",
+                "settings": {}
+            },
+            "fruit":{
+                "type": "sap.ui.model.json.JSONModel",
+                "uri": "mockdata/fruits.json",
+                "preload": false,
+                "settings": {}
+            },
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "preload": true,
+                "settings": {
+                    "bundleUrl": "i18n/i18n.properties"
+                }
+            }
+        }
+        
+    }
+}

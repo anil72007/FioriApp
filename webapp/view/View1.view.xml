@@ -1,0 +1,36 @@
+<View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.emc.fin.ap.controller.View1">
+	<Page title="View1">
+		<headerContent>
+			<Button icon="sap-icon://action" press="onNext">
+			</Button>
+		</headerContent>
+		<content>
+			<SearchField id="idSearch" search="onSearch">
+			</SearchField>
+			<List id="idList" items="{/ProductSet}" selectionChange="onItemSelect" mode="SingleSelectMaster" delete="onItemDelete" growing="true" growingThreshold="10">
+				<headerToolbar>
+					<Toolbar>
+						<ToolbarSpacer />
+						<Button icon="sap-icon://delete" press="onItemsDelete" tooltip="Delete Selected Items">
+						</Button>
+					</Toolbar>
+				</headerToolbar>
+				<items>
+					<ObjectListItem intro="{CATEGORY}" title="{PRODUCT_ID}" number="{PRICE}" numberUnit="{CURRENCY_CODE}" icon="sap-icon://product">
+						<firstStatus>
+							<ObjectStatus text="{SUPPLIER_NAME}" state="{path: 'status', formatter: '.formatter.getStatus'}">
+							</ObjectStatus>
+						</firstStatus>
+					</ObjectListItem>
+				</items>
+			</List>
+		</content>
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer />
+				<Button icon="sap-icon://add" press="onAdd" tooltop="Add New Product">
+				</Button>
+			</Toolbar>
+		</footer>
+	</Page>
+</View>
